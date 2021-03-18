@@ -1,6 +1,17 @@
 # Web Scraping - Mission to Mars
 
-In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
+In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what has been done.
+
+##Methods used to scrape:
+* BeautifulSoup
+* Splinter
+* Pandas scrape HTML tables
+* Requests
+
+##Technologies used:
+* Flask
+* HTML
+* Python
 
 # Step 1 - Scraping
 
@@ -18,7 +29,7 @@ Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, an
 
 * Use splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
 
-* Make sure to find the image url to the full size `.jpg` image.
+* Find the image url to the full size `.jpg` image.
 
 ### Mars Facts
 
@@ -30,7 +41,7 @@ Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, an
 
 * Visit the USGS Astrogeology site [here](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
 
-* You will need to click each of the links to the hemispheres in order to find the image url to the full resolution image.
+* Click each of the links to the hemispheres in order to find the image url to the full resolution image.
 
 * Save both the image url string for the full resolution hemisphere image, and the Hemisphere title containing the hemisphere name. Use a Python dictionary to store the data using the keys `img_url` and `title`.
 
@@ -40,9 +51,9 @@ Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, an
 
 Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
-* Start by converting your Jupyter notebook into a Python script called `scrape_mars.py` with a function called `scrape` that will execute all of your scraping code from above and return one Python dictionary containing all of the scraped data.
+* Convert Jupyter notebook into a Python script called `scrape_mars.py` with a function called `scrape` that will execute all of your scraping code from above and return one Python dictionary containing all of the scraped data.
 
-* Next, create a route called `/scrape` that will import your `scrape_mars.py` script and call your `scrape` function.
+* Create a route called `/scrape` that will import your `scrape_mars.py` script and call your `scrape` function.
 
   * Store the return value in Mongo as a Python dictionary.
 
