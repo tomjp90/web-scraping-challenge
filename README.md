@@ -12,6 +12,7 @@ This assignment will build a web application that scrapes various websites for d
 * Flask
 * HTML
 * Python
+* MongoDB
 
 # Step 1 - Scraping
 
