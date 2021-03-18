@@ -2,13 +2,13 @@
 
 In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what has been done.
 
-## Methods used to scrape:
+### Methods used to scrape:
 * BeautifulSoup
 * Splinter
 * Pandas scrape HTML tables
 * Requests
 
-## Technologies used:
+### Technologies used:
 * Flask
 * HTML
 * Python
