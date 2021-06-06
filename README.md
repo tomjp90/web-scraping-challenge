@@ -7,6 +7,7 @@ This assignment will build a web application that scrapes various websites for d
 * Splinter
 * Pandas scrape HTML tables
 * Requests
+* Selenium
 
 ### Technologies used:
 * Flask
