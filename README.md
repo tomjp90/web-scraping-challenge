@@ -14,6 +14,7 @@ This assignment will build a web application that scrapes various websites for d
 * HTML
 * Python
 * MongoDB
+* Pandas
 
 # Step 1 - Scraping
 
