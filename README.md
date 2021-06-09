@@ -9,7 +9,7 @@ This assignment builds a web application that scrapes various websites for data 
 * Requests
 * Selenium
 
-### Technologies used:
+### Technologies Used:
 * Flask
 * HTML
 * Python
